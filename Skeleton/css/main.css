@@ -1,0 +1,206 @@
+/* 
+
+Colors: 
+Opal: #9BC4BC
+Aero Blue: #D3FFE9
+Sky Blue Crayola: #8DDBE0
+Black Coral: #596475
+Raisin Black: #1F2232
+
+ */
+header {
+    background-color: #9BC4BC;
+    padding: 12px 0;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.uc {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: 900;
+    line-height: .9em;
+    margin-top: .3em;
+}
+
+p.subtxt {
+    color: gray;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#pic {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.padding {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+}
+
+.padding2 {
+    padding-top: 6em;
+    padding-bottom: 2em;
+}
+
+.padding3 {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#logo {
+    height:auto;
+    width:auto;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+#uc-seal {
+    display:block;
+    float:right;
+}
+
+#usc-seal, #princeton-seal {
+    display:block;
+    float:right;
+    height:auto;
+    width:auto;
+    margin-top: 15px;
+    max-width: 325px;
+}
+header ul {
+    padding-top: 10px;
+    font-size: 1.25em;
+    list-style-type: none;
+    float: right; 
+    margin: 0;
+}
+
+header ul li {
+    float:left; 
+    margin-bottom: 0;
+}
+
+header ul li a {
+    color: gray;
+    font-size: .8em;
+    margin-left: 40px;
+}
+
+#gray-container {
+    background: #596475;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+}
+
+.wt {
+    color: white;
+}
+
+#RB-container {
+    background-color: #1F2232;
+}
+
+
+label {
+    color: #9BC4BC;
+    font-weight: 300;
+}
+
+input[type=text] {
+    background:none;
+    border: 1px solid #8DDBE0 !important;
+    outline: 0 !important;
+    color: white;
+}
+
+select {
+    background-color: #1F2232; 
+    border: 1px solid #8DDBE0 !important;
+}
+
+#cta {
+    font-size: 1.8rem;
+    padding: .5rem 3rem;
+    height: auto; 
+}
+
+input[type=submit] {
+    margin-top: 30px;
+}
+
+
+@media (max-width: 550px) {
+    #logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        width: 100%
+    }
+    ul li {
+        display: block;
+        width: 100%;
+        margin: 1px 0 0 0;
+        padding: 0;
+    }
+
+    header ul li a {
+        margin-left: 0;
+        width: 100%;
+        display:block;
+        border-bottom: 1px solid lightgray;
+        padding: 5px;
+    }
+
+    header ul li:last-child a {
+        border-bottom:0;
+        padding-bottom:0;
+    }
+
+    .padding {
+        padding-top: 1.5em;
+    }
+
+    .padding2 {
+        padding-top:3em;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    #pic {
+        float:none !important;
+
+    }
+
+    #cta {
+        width: 100%;
+        margin-bottom:4rem;
+    }
+}
+
+@media(max-width:750px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #pic {
+        float: right;
+    }
+}
+
+
+html {
+    font-size: 80%; }
