@@ -94,6 +94,7 @@ def update_freshman_grad_graph(School):
     trace1 = px.bar(df_plot, labels={'index': 'Major', 'value': 'Salary'},
                     title='Average Salaries by Engineering Major')
     trace1.update_layout(showlegend=False)
+    
     return trace1
 
 
