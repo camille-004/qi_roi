@@ -18638,6 +18638,9 @@ a.pswp__share--download:hover {
 .u-accordion:not([class*="u-spacing-"]) .u-accordion-item:not(:last-child) .u-accordion-link[class*=u-border-] ~ .u-accordion-pane {
   border-bottom: none;
 }
+.u-section-row {
+  position: relative;
+}
 .u-carousel {
   position: relative;
 }
